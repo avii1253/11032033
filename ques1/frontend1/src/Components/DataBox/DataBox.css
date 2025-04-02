@@ -1,0 +1,27 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.boxContainer{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left:10%;
+    margin-top: 30px;
+    margin-bottom: 5rem;
+}
+
+.boxes{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    width: 20%;
+}
+.btn{
+    margin-top: 80px;
+    height: 5%;
+    width: 10%;
+}
